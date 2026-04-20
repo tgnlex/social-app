@@ -1,0 +1,16 @@
+
+
+.header, .footer {
+  width: 100vw;
+  text-align: center;
+  background-color: var(--bg-2);
+}
+
+.header {
+  height: 6vh;  
+}
+
+
+.footer {
+  height: 4vh;
+}
