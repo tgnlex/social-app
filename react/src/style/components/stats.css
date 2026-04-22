@@ -2,18 +2,31 @@
   --stats--ml: 100px;
   --stats--mb: 25px;
   --stats--border: 4px solid var(--fg-2);
-  --stats--pad: 1em;
+  --stats--pad: 2em;
   --stats--text: var(--fg-2);
   --stats--count: white;
-
+  height: 20vh;
   border: var(--stats--border);
   padding: var(--stats--pad);
   margin-left: var(--stats--ml);
   margin-bottom: var(--stats--mb);
+  & .title {
+    margin-bottom: 0.5em;
+  }
   & .text {
+    margin-top: 0.25em;
     color: var(--stats--text);
   }
   & .count {
     color: var(--stats--count);
+  }
+  & #request-count {
+    margin-left: 1em;
+  }
+  & #friends-count {
+    margin-left: 2em;
+  }
+  & #posts-count {
+   margin-left: 2.8em;
   }
 }

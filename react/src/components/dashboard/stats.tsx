@@ -14,9 +14,9 @@ function Stats(props: StatsProps) {
 
     <div id="stats">
       <h3 id="stats--title" className="title">User Stats</h3>
-      <p className="text">Requests: <span className="count">{requests}</span></p>
-      <p className="text">Friends: <span className="count">{friends}</span></p>
-      <p className="text">Posts: <span className="count">{posts}</span></p>
+      <p className="text">Requests: <span id="request-count" className="count">{requests}</span></p>
+      <p className="text">Friends:  <span id="friends-count" className="count">{friends}</span></p>
+      <p className="text">Posts: <span id="posts-count" className="count">{posts}</span></p>
     </div>
   );
 }

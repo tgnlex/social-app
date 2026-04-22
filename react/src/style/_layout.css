@@ -7,7 +7,15 @@
 }
 
 .header {
-  height: 6vh;  
+  --header--height: 6vh;
+  height: var(--header--height);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  & .header--title {
+    margin-left: 1vw;
+  }
 }
 
 

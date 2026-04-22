@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Header from '@/components/layout/header.tsx';
+import Footer from '@/components/layout/footer.tsx';
 import { Geist, Geist_Mono } from "next/font/google";
 import "../style/app.css";
 
@@ -19,9 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        <header className={"header"}></header>
-        {children}
-        <footer className={"footer"}>&copy; 2026</footer>
+      <Header />
+      {children}
+      <Footer />
       </body>
     </html>
   );
