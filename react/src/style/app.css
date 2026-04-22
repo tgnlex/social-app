@@ -7,6 +7,6 @@
 @import "./_media.css";
 
 /*** COMPONENTS ***/
-
-
+@import "./components/stats.css";
+@import "./components/sidebar.css";
 

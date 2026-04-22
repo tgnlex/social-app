@@ -3,10 +3,18 @@
   width: var(--header--width);
 }
 
+.sidebar {
+  width: 150px;
+  height: 100%;
+}
 
-.navbar:not(.sidebar) {
-  --navbar--width: calc(var(--site--width) - var(--site--offset--width));
-  width: var(--navbar--width);
+.outlet {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+
 }
 
 .footer {

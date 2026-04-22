@@ -1,0 +1,19 @@
+#stats {
+  --stats--ml: 100px;
+  --stats--mb: 25px;
+  --stats--border: 4px solid var(--fg-2);
+  --stats--pad: 1em;
+  --stats--text: var(--fg-2);
+  --stats--count: white;
+
+  border: var(--stats--border);
+  padding: var(--stats--pad);
+  margin-left: var(--stats--ml);
+  margin-bottom: var(--stats--mb);
+  & .text {
+    color: var(--stats--text);
+  }
+  & .count {
+    color: var(--stats--count);
+  }
+}

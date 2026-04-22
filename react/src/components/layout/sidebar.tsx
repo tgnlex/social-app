@@ -14,8 +14,8 @@ function NavItem(props: ItemProps) {
 
 function Navbar(props) {
   return (
-    <nav className={props.className}>
-      <ul className="navbar--list">
+    <nav id="sidebar" className={props.className}>
+      <ul className="sidebar--list">
        <NavItem text={"Home"} href={"/dashboard"} />
        <NavItem text={"Profile"} href={"/dashboard/profile"} />
        <NavItem text={"Friends"} href={"/dashboard/friends"} />
