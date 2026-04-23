@@ -6,20 +6,23 @@
   padding: 1em;
   justify-content: center;
   margin-left: 1vw;
+  width: 10vw;
   & .sidebar--list {
     list-style-type: none;
   }
   & .item {
     border-radius: 0.8rem;
-    background: var(--fg-2);
-    border: 2px solid transparent;
+    background: transparent;
+    border: 2px solid var(--fg-2);
     padding: 0.25em;
     margin-top: 1em;
     text-align: center;
+    width: 8vw;
     & :hover {
       filter: brightness(0.8);
     }
   }
+  & .item:hover { background: var(--fg-2)}
   & .link {
     font-size: 1.4em;
   }

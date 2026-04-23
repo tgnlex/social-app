@@ -2,21 +2,6 @@
   
 
 
-  /** PADDING **/
-  --card--pad: clamp(1.5em 32px 2.5em);
-  
-  /*** BORDER RADIUS ***/
-  --round-corners: 0.4rem;
-  
-  /*** BORDERS ***/
-  --border--clear: 1px solid transparent;
-  --border--thin--black: 1px solid black;
-  --border--thin--white: 1px solid white;
-  --border--med--black: 2px solid black;
-  --border--med--white: 2px solid white;
-  --border--thick--black: 3px solid black;
-  --border--thick--white: 3px solid white;
-  
   /*** PRIMARY COLORS ***/
   --text: rgba(255, 255, 255, 0.87);
   --bg: rgba(24, 24, 2, 0.91);
@@ -34,19 +19,7 @@
   /*** DROP SHADOWS **/
   --ds-1: drop-shadow(0 0 2em #646cffaa);
   --ds-2: drop-shadow(0 0 2em #61dafbaa);
-  /*** ANIMATIONS ***/
-  --spin-animation: spin infinite 20s linear;
-  --spin-start: rotate(0deg);
-  --spin-end: rotate(360deg);
-  /*** VEMDOR ***/
-  --wk-ring: -webkit-focus-ring-color;
-  /*** DEVICE SIZES ***/
-  --mobile: 600px;
-  --tablet: 720px;
-  --laptop: 920px;
-  --pc: 1200px;
-  /*** OTHER ***/
-  --opaque: 0.8;
+
 
   --card--pad: clamp(1.5em 32px 2.5em)
   --round-corners: clamp(0.2rem 8px 0.8rem);
@@ -55,16 +28,4 @@
   --bg: rgba(24, 24, 2, 0.91);
   --spin-animation: spin infinite 20s linear;
 
-
-  --ds-1: drop-shadow(0 0 2em #646cffaa);
-  --ds-2: drop-shadow(0 0 2em #61dafbaa);
-  --spin-start: rotate(0deg);
-  --spin-end: rotate(360deg);
-  
-  --bg-1: rgb(0, 0, 0);
-	--bg-2: #673ab8;
-
-  --fg-1: rgb(255, 255, 255);
-  --fg-2: rebeccapurple;
-  --fg-3: coral;
 }
