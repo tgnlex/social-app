@@ -1,0 +1,22 @@
+#home--page {
+    --top-row--width: 100%;
+    --top-row--mt: 4rem;
+    --welcome--fs: 2.2rem;
+    --welcome-mr: 4rem;
+    --login--ml: 5rem;
+
+    #home--top-row {
+        margin-top: var(--top-row--mt);
+        width: var(--top-row--width);
+
+        & #welcome {
+            font-size: var(--welcome--fs);
+            margin-right: var(--welcome--mr);
+        }
+    
+        & #login {
+            margin-left: var(--login--ml);
+        }
+
+    }
+}

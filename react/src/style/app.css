@@ -6,6 +6,8 @@
 @import "./_utilities.css";
 @import "./_media.css";
 
+/*** PAGES ***/
+@import "./pages/home.css";
 /*** COMPONENTS ***/
 @import "./components/stats.css";
 @import "./components/sidebar.css";
