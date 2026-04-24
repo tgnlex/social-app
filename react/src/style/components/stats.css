@@ -5,7 +5,7 @@
   --stats--pad: 2em;
   --stats--text: var(--fg-2);
   --stats--count: white;
-  height: 20vh;
+  height: 24vh;
   border: var(--stats--border);
   padding: var(--stats--pad);
   margin-left: var(--stats--ml);

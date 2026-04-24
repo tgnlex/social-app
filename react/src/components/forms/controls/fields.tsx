@@ -16,7 +16,7 @@ function Email(props: FieldProps) {
       className = {props.className || default_classes}
       name={props.name || "email"}
       style={props.style || {}}
-      placeholder={props.placeholder || ""}
+      placeholder={props.placeholder || "Enter your email address..."}
       required
     />
   )
@@ -30,7 +30,7 @@ function Password(props: FieldProps) {
       id = {props.id || "password-field"}
       className= {props.className || default_classes}
       style = {props.style || {}}
-      placeholder={props.placeholder || ""}
+      placeholder={props.placeholder || "Enter your password..."}
       required 
     />
   )

@@ -1,0 +1,19 @@
+.label { 
+  --label--mt: 1em;
+  margin-top: var(--label--mt);
+  display: block;
+}
+
+.field, .form-control-text {
+  --field--border--color: var(--clr--gray--090);
+  --field--border: 2px solid var(--field--border--color);
+  --field--text--color: var(--clr--black--100);
+  --field--radius: 5px;
+  --field--bg: var(--clr--white--100);
+
+  background-color: var(--field--bg);
+  border-radius: var(--field--radius);
+  border: var(--field--border);
+  color: var(--field--text--color);
+
+}

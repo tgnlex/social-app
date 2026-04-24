@@ -1,0 +1,31 @@
+.row { display: flex; flex-direction: row; }
+.column { display: flex; flex-direction: column; }
+
+.grid {
+  --base--column-gap: 1.5rem;
+  --base--grid-columns: 3, 1fr;
+	display: grid;
+  grid-template-columns: var(--base--grid-columns);
+	column-gap: var(--base-column-gap);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.resource {
+  --base--resource--radius: 0.5rem;
+  --base--resource--pad: 0.75rem 1.5rem;
+	padding: var(--base--resource--pad);
+	border-radius: var(--base--resource--radius);
+	text-align: left;
+	text-decoration: none;
+	color: #222;
+	background-color: #f1f1f1;
+	border: 1px solid transparent;
+}
+

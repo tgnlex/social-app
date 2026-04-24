@@ -1,37 +1,5 @@
 @import "../style/_variables.css";
 
-.page {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.login {
-  --login--border: 6px double white;
-  --login--pad: 0.5rem;
-  extends: .column;
-  border-radius: var(--round-corners);
-  padding: var(--login--pad);
-  border: var(--login--border);
-  background: inherit;
-  display: flex;
-  flex-direction: column;
-  & input {
-  
-    margin-top: 0.25em;
-    border-radius: var(--round-corners);
-  }
-}
-
 .welcome {
     --pad-x: 0.5em;
     --pad-y: 2em;

@@ -1,15 +1,10 @@
+
 /*** MAIN IMPORTS ***/
-@import "./library/_index.css";
-@import "./_variables.css";
-@import "./_base.css";
-@import "./_layout.css";
-@import "./_keyframes.css";
-@import "./_utilities.css";
-@import "./_media.css";
-
-/*** PAGES ***/
-@import "./pages/home.css";
-/*** COMPONENTS ***/
-@import "./components/stats.css";
-@import "./components/sidebar.css";
-
+@import "./library/_index.css";     /** VARIABLES **/ 
+@import "./base/_index.css";        /** SITE BASE **/
+@import "./layout/_index.css";      /** LAYOUTS **/
+@import "./keyframes/_index.css";   /** ANIMATIONS **/
+@import "./utilities/_index.css";   /** UTILITY CLASSES **/
+@import "./pages/_index.css";       /** PAGE STYLES ***/
+@import "./components/_index.css";  /** COMPONENTS **/
+@import "./media/_index.css";       /** MEDIA QUERIES **/

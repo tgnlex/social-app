@@ -1,8 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import Sidebar from '@/components/layout/sidebar.tsx';
-import "@/style/app.css";
-
-
+import { Row } from "@/components/ui/index"
+import Sidebar from '@/components/layout/sidebar';
 
 export default function DashboardLayout({
   children,
@@ -12,12 +9,10 @@ export default function DashboardLayout({
   return (
     <html lang="en">
       <body>
-        <div id="layout-row" className="row">
+        <Row id="layout-row">
           <Sidebar />
-          <div id="outlet">
-          {children}
-          </div>
-        </div>
+          <div id="outlet">{children}</div>
+        </Row>
       </body>
     </html>
   );
