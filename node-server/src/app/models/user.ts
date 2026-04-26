@@ -1,14 +1,17 @@
 
 class User {
   id: number;
+  name: { first: string; last: string; }
   age: number;
   email: string;
   password: string;
-  requests: [],
-  friends: [],
-  posts: []
+
+  requests: [];
+  friends: [];
+  posts: [];
+
   stats = {
-    friends: 0
+    friends: 0,
     posts: 0,
     likes: 0,
   }
@@ -28,21 +31,30 @@ class User {
        posts: 0,
     }
   }
-
+  addRequest(request) {
+    this.requests.push(request);
+  }
   addPost(post) {
     this.posts.push(post);
   }
   addFriend(user) {
     this.friends.push(user)
   }
+  /** TODO: Accept Request **/
+  acceptRequest() {}
+  removeRequest() {}
+  removeFriend() {}
+  removePost() {}
+  
   setStats() {
-    this.stats.active_requests = this.request.length;
+    this.stats.active_requests = this.requests.length;
     this.stats.friends = this.friends.length;
     this.stats.posts = this.posts.length;
   }
-  forEachPost(cb) { this.posts.forEach((post) => cb)}
-  forEachFriend(cb) { this.friends.forEach((friend) => cb)}
-  forEachRequest(cb) { this.requests.forEach((request) => cb)}
+  forEachPost(cb: Function) { this.posts.forEach((post) => cb)}
+  forEachFriend(cb: Function) { this.friends.forEach((friend) => cb)}
+  forEachRequest(cb: Function) { this.requests.forEach((request) => cb)}
 }
 
 export default User;
+export type { IUser }

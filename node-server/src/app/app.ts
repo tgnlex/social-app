@@ -5,6 +5,7 @@ import config from '../config/application.ts';
 import router from './routes/index.ts';
 
 const application = new Application(config);
+
 application.bootstrap();
 
 application.server.disable('x-powered-by');
